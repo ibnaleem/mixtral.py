@@ -96,7 +96,7 @@ wget https://github.com/ibnaleem/ibnaleem/blob/main/public_key.asc
 The signatures (.asc and .sig) can be found in the [/sig directory.](https://github.com/ibnaleem/mixtral.py/tree/main/sig) Download either of them. Open [an issue](https://github.com/ibnaleem/mixtral.py/issues) with the title "invalid signature/wrong signature/corrupt signature" for any issues regarding my signatures.
 ### Sign My Key 
 ```
-gpg --sign-keys 20247EC023F2769E66181C0F581B4A2A862BBADE
+gpg --sign-key 20247EC023F2769E66181C0F581B4A2A862BBADE
 gpg --send-keys 20247EC023F2769E66181C0F581B4A2A862BBADE
 ```
 If you cannot upload your signature, see ["*gpg: keyserver receive failed: No route to host*"](https://stackoverflow.com/questions/54801274/gpg-keyserver-receive-failed-no-route-to-host-stack-overflow)
