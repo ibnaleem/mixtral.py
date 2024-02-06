@@ -35,5 +35,5 @@ print("Load the model with Flash Attention 2:")
 mixtral_flash_attention_2 = Mixtral(model_id="mistralai/Mixtral-8x7B-Instruct-v0.1", use_flash_attention_2=True)
 print(mixtral_flash_attention_2.generate_text("Hello my name is"))
 ```
-# Limitations
+## Limitations
 The Mixtral-8x7B Instruct model showcases the ease of fine-tuning the base model for impressive performance, lacking moderation mechanisms. Mixtral-8x7B seek community input on implementing guardrails for deployment in environments needing moderated outputs.
